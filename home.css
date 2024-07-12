@@ -1,0 +1,52 @@
+h1 {
+	text-align: center;
+	line-height: 1.1;
+	font-weight: normal;
+	color: white;
+	background-color: rgb(5,87,107);
+	margin: 0;
+	padding: 20px 0;
+	text-transform: uppercase;
+}
+h2 {
+	text-align: center;
+	line-height: 1;
+	font-weight: normal;
+	color: white;
+	background-color: rgb(28,128,153);
+	margin: 0;
+	padding: 10px 0;
+}
+
+#container {
+	margin: 25px auto 50px auto;
+	max-width: 900px;
+	width:65%;
+	float: center;
+}
+
+body {
+	background-color: rgb(106,152,163);
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
+	text-align: center
+}
+
+
+a {
+	border-style: 4px solid white;
+	margin:5px;
+	color: white;
+	font-weight: 100;
+	font-size: 1.5em;
+
+}
+
+p {
+	border-style: 4px solid white;
+	margin:5px;
+	color: rgb(198,204,207);
+	font-weight: 150;
+	font-size: 1.5em;
+
+}
