@@ -1,3 +1,4 @@
+/*
 h1 {
 	text-align: center;
 	line-height: 1.1;
@@ -18,11 +19,30 @@ h2 {
 	padding: 10px 0;
 }
 
-#stripe {
+span {
+	text-align: center;
+	line-height: 1;
+	font-weight: normal;
+	color: white;
+	background-color: rgb(255,255,255);
+	margin: 0;
+	padding: 1px 0;
+}
+*/
+
+.stripe {
 	background: white;
-	height: 30px;
+	height: 5%;
 	text-align: center;
 }
+
+.stripe2 {
+	background: rgb(106,152,163);
+	height: 10%;
+	text-align: center;
+}
+
+
 
 .selected {
 	color: white;
@@ -53,9 +73,11 @@ button:hover {
 }
 
 #container {
+	padding-top:5% ;
+	padding-bottom:3%; 
 	margin: 25px auto 50px auto;
-	max-width: 900px;
-	width:65%;
+	max-width: 1400px;
+	width:85%;
 	float: center;
 }
 
@@ -83,4 +105,30 @@ p {
 	font-weight: 150;
 	font-size: 1.5em;
 
+}
+
+/*
+
+h3 {
+	border-style: 4px solid white;
+	margin:5px;
+	color: rgb(198,204,207);
+	font-weight: 150;
+	font-size: 1.5em;
+
+}
+*/
+
+.bottom-line {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+	width: 100%;
+}
+
+.top-line {
+    position: fixed;
+    top: 0;
+    left: 0;
+	width: 100%;
 }
