@@ -14,6 +14,8 @@ function setupModeButtons(){
 			modeButtons[0].classList.remove("selected");
 			modeButtons[1].classList.remove("selected");
 			modeButtons[2].classList.remove("selected");
+			modeButtons[3].classList.remove("selected");
+			modeButtons[4].classList.remove("selected");
 			this.classList.add("selected");
 			if (this.textContent === "LINKS") {
 				text1.classList.add("hidden");
@@ -22,6 +24,12 @@ function setupModeButtons(){
 			else if (this.textContent === "ΑΡΘΡΑ") {
 				text2.classList.add("hidden");
 				text1.classList.remove("hidden");
+			}
+			else if (this.textContent === "DOCTORS") {
+				window.location.href="https://doctors.ygeiafirst.net";
+			}
+			else if (this.textContent === "BLOG") {
+					window.location.href="https://blog.ygeiafirst.net";
 			}
 			else {
 				window.location.href="https://ygeiafirst.net";
