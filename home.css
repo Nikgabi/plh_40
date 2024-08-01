@@ -70,6 +70,7 @@ button {
 button:hover {
 	color: white;
 	background: rgb(106,152,163);
+	cursor:pointer;
 }
 
 #container {
